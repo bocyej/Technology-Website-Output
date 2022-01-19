@@ -1,0 +1,211 @@
+body {
+    font-family: Verdana;
+	font-size: 22px;
+  	background-color: #242424;
+	color: #FFFFFF;
+}
+
+
+/* Navigation Bar */
+.center {
+	margin: auto;
+	text-align: center;
+}
+
+.mainnav
+{
+	background-color: #ECAD50;
+	overflow: hidden;
+}
+
+.mainnav a
+{
+	padding: 20px 20px;
+	text-align: center;
+	color: #FFFFFF;
+	float: left;
+	font-size: 25px;
+}
+
+.mainnav a.active
+{
+	color: #FFFFFF;
+	background-color: #2B483D;
+}
+
+
+/* Active */
+#active {
+	background-color: #2B483D;
+}
+
+/* Dropdown */
+.dropdown {
+	float: left;
+	overflow: hidden;
+}
+
+.dropdown .dropbutton {  
+	border: none;
+	outline: none;
+	color: #FFFFFF;
+	padding: 20px 20px;
+	margin: 0px;
+	font-size: 20px;
+	background-color: inherit;
+	font-family: inherit;
+}
+
+.mainnav a:hover, .dropdown:hover .dropbutton {
+	background-color: #2B483D;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f9f9f9;
+	min-width: 150px;
+	z-index: 1;
+}
+  
+.dropdown-content a {
+	float: none;
+	color: black;
+	padding: 10px 15px;
+	text-decoration: none;
+	display: block;
+	text-align: left;
+}
+  
+.dropdown-content a:hover {
+	background-color: #2B483D;
+	color: #FFFFFF;
+}
+  
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+
+
+/* Container */
+.container2 {
+	margin: 10px;
+	padding: 10px;
+	font-size: 35px;
+	text-align: center;	
+	height: 625px;
+	position: relative;
+	display: block;
+	background-color: #3B3B3C;
+}
+
+.container2 {
+	margin: 10px;
+	padding: 10px;
+	font-size: 35px;
+	text-align: center;	
+	height: 625px;
+	position: static;
+	display: block;
+	background-color: #3B3B3C;
+}
+
+/* Button */
+.button {
+	background-color: #000000;
+	color: #FFFFFF;
+	border: none;
+	margin: 5px 5px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+}
+
+
+/* Button on Welcome Page */
+.hbutton {
+	background-color: #FFFFFF;
+	color: #ECAD50;
+	font-size:50px;
+	font-family: Verdana;
+	border: 3px solid #ECAD50;
+	border-radius: 15px;
+	padding: 3px 25px;
+	transition-duration: 0.5s;
+}
+
+.hbutton:hover { 
+	background-color: #ECAD50;
+	color: #FFFFFF;
+	border: 3px solid #FFFFFF;
+}
+
+/* Button on About Page */
+.refbutton {
+	background-color: #000000;
+	color: #FFFFFF;
+	border: none;
+	margin: 25px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	transition-duration: 0.4s;
+}
+
+.rbutton {
+	background-color: #ECAD50;
+	color: #FFFFFF;
+	font-size:25px;
+	font-family: Verdana;
+	border: 3px solid #FFFFFF;
+	border-radius: 15px;
+	padding: 3px 25px;
+	transition-duration: 0.5s;
+}
+
+.rbutton:hover { 
+	background-color: #2B483D;
+	color: #FFFFFF;
+	border: 3px solid #FFFFFF;
+}
+
+/* About Page */
+.container-for-image {
+	display: block;
+	margin: 5px;
+	padding: 5px 5px;
+}
+
+.container-for-info {
+	display: grid;
+	background-color: #333333;
+	margin: 10px;
+	padding: 10px 20px;
+	text-align: left;	
+	font-size:15px
+}
+
+.container-for-text {
+	display: grid;
+	background-color: #333333;
+	margin: 10px;
+	padding: 10px 20px;
+	text-align: left;	
+	font-size:15px
+}
+
+
+/* COLOR NOTES:
+green #2B483D
+
+yellow #ECAD50
+
+dark gray 1 #2D2D2D
+
+dark gray 2 #333333
+
+container for button #3B3B3C
+
+random #8e3e26
+*/
